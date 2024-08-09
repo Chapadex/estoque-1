@@ -72,7 +72,7 @@ form textarea {
     border-radius: 3px;
 }
 
-form button {
+ .button { align-items: center;
     padding: 10px;
     background-color: #4CAF50;
     color: white;
@@ -81,7 +81,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+.button:hover {
     background-color: #45a049;
 }
 
