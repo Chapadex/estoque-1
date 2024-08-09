@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Gestão de Estoque</h1>
+    <nav>
+        <a href="cadastro-produto.html">Cadastro de Produto</a>
+        <a href="movimentacao-produto.html">Movimentação de Produto</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="consultas.html">Consultas</a>
+        <a href="gerenciamento-estoque.html">Gerenciamento de Estoque</a>
+        <a href="alerta-estoque-baixo.html">Alerta de Estoque Baixo</a>
+    </nav>
+</header>
+
+<section id="gerenciamento-estoque">
+    <h2>Gerenciamento de Estoque</h2>
+    <form action="#" method="post">
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto">
+            <option value="produto1">Produto 1</option>
+            <option value="produto2">Produto 2</option>
+        </select>
+
+        <label for="quantidade">Quantidade Atual:</label>
+        <input type="number" id="quantidade" name="quantidade" required>
+
+        <label for="nova-quantidade">Nova Quantidade:</label>
+        <input type="number" id="nova-quantidade" name="nova-quantidade" required>
+
+        <button type="submit">Atualizar Estoque</button>
+    </form>
+
+    <div class="alerta">
+        <p><strong>Aviso:</strong> O estoque de alguns produtos está baixo!</p>
+    </div>
+</section>
+
+</body>
+</html>
