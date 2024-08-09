@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Relatórios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Gestão de Estoque</h1>
+    <nav>
+        <a href="cadastro-produto.html">Cadastro de Produto</a>
+        <a href="movimentacao-produto.html">Movimentação de Produto</a>
+        <a href="relatorios.html">Relatórios</a>
+        <a href="consultas.html">Consultas</a>
+        <a href="gerenciamento-estoque.html">Gerenciamento de Estoque</a>
+        <a href="alerta-estoque-baixo.html">Alerta de Estoque Baixo</a>
+    </nav>
+</header>
+
+<section id="relatorios">
+    <h2>Gerar Relatórios</h2>
+    <form action="#" method="post">
+        <label for="criterio">Critério:</label>
+        <select id="criterio" name="criterio">
+            <option value="periodo">Período</option>
+            <option value="categoria">Categoria</option>
+        </select>
+        <label for="detalhes">Detalhes do Relatório:</label>
+        <textarea id="detalhes" name="detalhes"></textarea>
+        <button type="submit">Gerar Relatório</button>
+    </form>
+</section>
+
+</body>
+</html>
